@@ -1,0 +1,25 @@
+body{
+    background-color:bisque;
+    font-family:bai jamjuree;
+}
+#container{
+    display:flex;/*elementos dispostos em linha */
+}
+.cartao{
+    margin:1rem 1rem;
+    backgroud-color:aqua;
+    height:20rem;
+    flex-grow:1;
+    flex-basis:calc(33%-6rem);
+}
+.cartao_conteudo{
+    text-aling:center;
+    /*backgroud-color:aquamarine;*/
+    height:100%
+}
+.carao_conteudo h3{
+    background-color:tomato;
+    text-align:left;
+    padding:0.5rem;
+    position:absolute;
+}
